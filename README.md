@@ -12,6 +12,14 @@ Who: Targeted at data analysts, career planners, workforce developers, and polic
 - Using Python and Selenium, real-time job data is scraped and standardized before undergoing an ETL process. 
 - The cleaned dataset is then explored and visualized using tools like Seaborn, Plotly, Power BI, and Tableau to derive meaningful labor market insights.
 
+## Setup
+Add your LinkedIn credentials to `logins.csv`
+```bash
+python -m venv venv
+source env/bin/activate
+pip install -r requirements.txt
+```
+
 ## Search Retriever
 ### Purpose:
 Retrieves basic information about job postings listed on LinkedIn’s search results page.
