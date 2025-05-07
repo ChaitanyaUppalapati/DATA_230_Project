@@ -62,6 +62,8 @@ python to_csv.py --folder <destination folder> --database <linkedin_jobs.db>
 All of the analytics is done under the `notebooks` folder, the data is exported as csv and uses matplotlib, pandas 
 seaborn etc for visualization.
 
+Note: Please export data from the database to CSV for running the analysis notebook or Python code. Follow the structure below for the least changes.
+
 ```bash
 notebooks
 ├── Analytics.py
