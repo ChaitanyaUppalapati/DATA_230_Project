@@ -76,3 +76,4 @@ notebooks
 │   └── postings.csv
 └── job_analysis.ipynb
 ```
+![Power BI Dashboard](docs/Linkedin%20data.png)
